@@ -1,0 +1,182 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* index */
+body {
+    background-color: #EEEEEE;
+    margin: 0;
+}
+
+
+
+/* ======== CSS Form myProject dan tampilan ========*/
+
+.formProject {
+    flex-direction: column;
+    width: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.formProject div {
+    margin-top: 10px;
+}
+
+.formProject label {
+    font-weight: bold;
+}
+
+.formProject input,
+.formProject select,
+.formProject textarea {
+    width: 100%;
+    background-color: #dfdedf;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.formProject textarea {
+    resize: none;
+    height: 100px;
+}
+
+.formProject button {
+    background-color: #19376D;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.formProject .btn {
+    float: right;
+}
+
+.formProject .checkbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.formProject .checkbox-line {
+    display: flex;
+    margin-top: 5px;
+}
+
+.formProject .checkbox-column {
+    font-size: 14px;
+    margin-right: 100px;
+}
+
+
+.formProject .checkbox-column label {
+    display: flex;
+    justify-content: baseline;
+}
+
+.formProject .checkbox input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+
+
+
+/* ======== Dibawahnya form Project  ========*/
+
+.cardsProject {
+    width: 100%;
+    background-color: white;
+
+}
+
+.cardProject {
+    display: grid;
+    margin: auto;
+    flex-direction: center;
+    grid-template-columns: auto auto auto;
+    
+}
+
+.cardsProject h1 {
+    padding-top: 50px;
+}
+
+
+.cardsProject .cardBodyProject {
+    background-color: rgb(235, 235, 235);
+    max-width: min-content;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.cardsProject .img {
+    margin: 25px;
+}
+
+.cardsProject img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+
+
+
+.cardDesripsion a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.cardDesripsion h5 {
+    /* margin: -20px auto 1px 0px; */
+    font-weight: bold;
+}
+
+.cardDesripsion span {
+    margin-bottom: 100px;
+    font-size: 11px;
+}
+
+.cardDesripsion p {
+    font-size: 13px;
+
+}
+
+.cardBodyProject .imgtech img {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+}
+
+.cardBodyProject .imgtech {
+    margin: 20px auto 10px 0px;
+}
+
+.cardsProject .cardBodyProject .control-button a {
+    text-align: center;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 5px 60px;
+}

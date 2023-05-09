@@ -1,0 +1,266 @@
+* {
+    font-family: 'Poppins', sans-serif;
+} 
+/* index */
+body{
+    background-color: #EEEEEE;
+    margin: 0;
+}
+
+.card {
+ margin: 50px auto;
+ padding: 30px;
+ width: 1000px;
+ background-color: white;
+ font-family: Helvetica;
+ border-radius: 10px;
+ box-shadow: 10px 10px 0px 0px #E8E2E2;
+ justify-content: space-between;
+}
+
+.card .content {
+    padding: 50px;
+}
+
+.card .card-img-top{
+    padding: 0 !important;
+}
+
+div p {
+    text-align: justify;
+    font-size: 15px;
+}
+
+.card button{
+    background-color: #19376D;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 15px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+}
+
+.icon {
+    padding-top: 10px;
+    width: 160px;
+}
+
+.icon a img {
+    width: 30px;
+    margin: 1px;
+    padding: 1px;
+}
+
+.card-img{
+    width: 10px !important;
+}
+
+.card-img img{
+    width: 350px;
+    height: 100px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card-img div {
+    text-align: center;
+    margin: 1px auto;
+    padding: 1px 0 15px 0;
+}
+
+.card-img h1 {
+    margin: 3px auto;
+}
+
+.card-img span{
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ======== CSS Form Contac ME ========*/
+
+.form-contact {
+    flex-direction: column;
+    width: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.form-contact div{
+    margin-top: 10px;
+}
+
+.form-contact label{
+    font-weight: bold;
+}
+
+.form-contact input, .form-contact select, .form-contact textarea{
+    width: 100%;
+    background-color: #dfdedf;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.form-contact textarea{
+    resize: none;
+    height: 100px;
+}
+
+.form-contact button {
+    background-color: #19376D;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.form-contact .btn{
+    float: right;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* ======== Detail Project ======== */
+
+.containerDetailp {
+    background-color: #EEEEEE;
+    margin: 50px;
+}
+
+/* .containerDetailp h1 {
+    padding-bottom: 20px;
+}
+
+.detailphead {
+    display: flex;
+}
+
+.imgPostingan img {
+    width: 800px;
+    height: 500px;
+} */
+
+/* .detailpostingan .detail {
+    margin-left: 30px;
+    
+} */
+
+.detailpostingan .detailJudul {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+/* .detail .isiDetail {
+    display: flex;
+    margin-bottom: 15px;
+    
+}
+
+.detail .isiDetail2 {
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-between;
+} */
+
+
+
+/* Testimonial */
+
+.container {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.testimonial {
+    width: 25%;
+    margin: 0px 15px 30px 15px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.quote {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.author {
+    font-weight: bold;
+    text-align: right;
+}
+
+.profile-testimonial {
+    width: 100%;
+}
+
+.container-rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.rating-btn {
+    margin: 20px;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #19376D;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
